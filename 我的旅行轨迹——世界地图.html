@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的旅行轨迹——世界地图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="4a73c8cef26a4b2499ac549e697da625" class="chart-container" style="width:1600px; height:800px;"></div>
+    <script>
+        var chart_4a73c8cef26a4b2499ac549e697da625 = echarts.init(
+            document.getElementById('4a73c8cef26a4b2499ac549e697da625'), 'dark', {renderer: 'canvas'});
+        var option_4a73c8cef26a4b2499ac549e697da625 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "effectScatter",
+            "name": "My Hometown",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha",
+                    "value": [
+                        112.59,
+                        28.12,
+                        "2000-2022"
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "My Hometown",
+            "coordinateSystem": "geo",
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Beijing",
+                    "value": [
+                        116.46,
+                        39.92,
+                        null
+                    ]
+                },
+                {
+                    "name": "Shenzhen",
+                    "value": [
+                        114.05,
+                        22.55,
+                        null
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "scatter",
+            "name": "Where I Have Been",
+            "coordinateSystem": "geo",
+            "symbolSize": 8,
+            "data": [
+                {
+                    "name": "United Kingdom",
+                    "value": [
+                        -3.44,
+                        55.38,
+                        2019
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        105.32,
+                        61.52,
+                        2007
+                    ]
+                },
+                {
+                    "name": "Spain",
+                    "value": [
+                        -3.75,
+                        40.46,
+                        2005
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "value": [
+                        12.57,
+                        41.87,
+                        2005
+                    ]
+                },
+                {
+                    "name": "France",
+                    "value": [
+                        2.21,
+                        46.23,
+                        2005
+                    ]
+                },
+                {
+                    "name": "Egypt",
+                    "value": [
+                        30.8,
+                        26.82,
+                        2009
+                    ]
+                },
+                {
+                    "name": "Australia",
+                    "value": [
+                        133.78,
+                        -25.27,
+                        2012
+                    ]
+                },
+                {
+                    "name": "New Zealand",
+                    "value": [
+                        174.89,
+                        -40.9,
+                        2012
+                    ]
+                },
+                {
+                    "name": "United States",
+                    "value": [
+                        -95.71,
+                        37.09,
+                        2010
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "value": [
+                        -106.35,
+                        56.13,
+                        2010
+                    ]
+                },
+                {
+                    "name": "Indonesia",
+                    "value": [
+                        113.92,
+                        -0.79,
+                        2006
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        2011
+                    ]
+                },
+                {
+                    "name": "Vietnam",
+                    "value": [
+                        108.28,
+                        14.06,
+                        2014
+                    ]
+                },
+                {
+                    "name": "Thailand",
+                    "value": [
+                        100.99,
+                        15.87,
+                        2016
+                    ]
+                },
+                {
+                    "name": "Philippines",
+                    "value": [
+                        121.77,
+                        12.88,
+                        2015
+                    ]
+                },
+                {
+                    "name": "Malaysia",
+                    "value": [
+                        101.98,
+                        4.21,
+                        2017
+                    ]
+                },
+                {
+                    "name": "Sri Lanka",
+                    "value": [
+                        80.77,
+                        7.87,
+                        2008
+                    ]
+                },
+                {
+                    "name": "Maldives",
+                    "value": [
+                        73.54,
+                        1.98,
+                        2008
+                    ]
+                },
+                {
+                    "name": "United Arab Emirates",
+                    "value": [
+                        53.85,
+                        23.42,
+                        2013
+                    ]
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "value": [
+                        45.08,
+                        23.89,
+                        2013
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Childhood(2005-2012)",
+            "coordinateSystem": "geo",
+            "zlevel": 5,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Italy",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            12.57,
+                            41.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->Spain",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            -3.75,
+                            40.46
+                        ]
+                    ]
+                },
+                {
+                    "name": "Spain->France",
+                    "coords": [
+                        [
+                            -3.75,
+                            40.46
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Indonesia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            113.92,
+                            -0.79
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Beijing",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            116.46,
+                            39.92
+                        ]
+                    ]
+                },
+                {
+                    "name": "Beijing->Russia",
+                    "coords": [
+                        [
+                            116.46,
+                            39.92
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Shenzhen",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            114.05,
+                            22.55
+                        ]
+                    ]
+                },
+                {
+                    "name": "Shenzhen->Egypt",
+                    "coords": [
+                        [
+                            114.05,
+                            22.55
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Sri Lanka",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            80.77,
+                            7.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sri Lanka->Maldives",
+                    "coords": [
+                        [
+                            80.77,
+                            7.87
+                        ],
+                        [
+                            73.54,
+                            1.98
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United States",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -95.71,
+                            37.09
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Canada",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            -106.35,
+                            56.13
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Japan",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            138.25,
+                            36.2
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Australia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            133.78,
+                            -25.27
+                        ]
+                    ]
+                },
+                {
+                    "name": "Australia->New Zealand",
+                    "coords": [
+                        [
+                            133.78,
+                            -25.27
+                        ],
+                        [
+                            174.89,
+                            -40.9
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Junior(2013-2015)",
+            "coordinateSystem": "geo",
+            "zlevel": 6,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->United Arab Emirates",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            53.85,
+                            23.42
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Arab Emirates->Saudi Arabia",
+                    "coords": [
+                        [
+                            53.85,
+                            23.42
+                        ],
+                        [
+                            45.08,
+                            23.89
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Vietnam",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            108.28,
+                            14.06
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Philippines",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            121.77,
+                            12.88
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Senior(2016-2019)",
+            "coordinateSystem": "geo",
+            "zlevel": 7,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Thailand",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            100.99,
+                            15.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Malaysia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            101.98,
+                            4.21
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United Kingdom",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Childhood(2005-2012)",
+            "coordinateSystem": "geo",
+            "zlevel": 8,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Italy",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            12.57,
+                            41.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->Spain",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            -3.75,
+                            40.46
+                        ]
+                    ]
+                },
+                {
+                    "name": "Spain->France",
+                    "coords": [
+                        [
+                            -3.75,
+                            40.46
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Indonesia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            113.92,
+                            -0.79
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Beijing",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            116.46,
+                            39.92
+                        ]
+                    ]
+                },
+                {
+                    "name": "Beijing->Russia",
+                    "coords": [
+                        [
+                            116.46,
+                            39.92
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Shenzhen",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            114.05,
+                            22.55
+                        ]
+                    ]
+                },
+                {
+                    "name": "Shenzhen->Egypt",
+                    "coords": [
+                        [
+                            114.05,
+                            22.55
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Sri Lanka",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            80.77,
+                            7.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sri Lanka->Maldives",
+                    "coords": [
+                        [
+                            80.77,
+                            7.87
+                        ],
+                        [
+                            73.54,
+                            1.98
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United States",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -95.71,
+                            37.09
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Canada",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            -106.35,
+                            56.13
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Japan",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            138.25,
+                            36.2
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Australia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            133.78,
+                            -25.27
+                        ]
+                    ]
+                },
+                {
+                    "name": "Australia->New Zealand",
+                    "coords": [
+                        [
+                            133.78,
+                            -25.27
+                        ],
+                        [
+                            174.89,
+                            -40.9
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Junior(2013-2015)",
+            "coordinateSystem": "geo",
+            "zlevel": 9,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->United Arab Emirates",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            53.85,
+                            23.42
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Arab Emirates->Saudi Arabia",
+                    "coords": [
+                        [
+                            53.85,
+                            23.42
+                        ],
+                        [
+                            45.08,
+                            23.89
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Vietnam",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            108.28,
+                            14.06
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Philippines",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            121.77,
+                            12.88
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Senior(2016-2019)",
+            "coordinateSystem": "geo",
+            "zlevel": 10,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Thailand",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            100.99,
+                            15.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Malaysia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            101.98,
+                            4.21
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United Kingdom",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Childhood(2005-2012)",
+            "coordinateSystem": "geo",
+            "zlevel": 11,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Italy",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            12.57,
+                            41.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Italy->Spain",
+                    "coords": [
+                        [
+                            12.57,
+                            41.87
+                        ],
+                        [
+                            -3.75,
+                            40.46
+                        ]
+                    ]
+                },
+                {
+                    "name": "Spain->France",
+                    "coords": [
+                        [
+                            -3.75,
+                            40.46
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Indonesia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            113.92,
+                            -0.79
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Beijing",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            116.46,
+                            39.92
+                        ]
+                    ]
+                },
+                {
+                    "name": "Beijing->Russia",
+                    "coords": [
+                        [
+                            116.46,
+                            39.92
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Shenzhen",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            114.05,
+                            22.55
+                        ]
+                    ]
+                },
+                {
+                    "name": "Shenzhen->Egypt",
+                    "coords": [
+                        [
+                            114.05,
+                            22.55
+                        ],
+                        [
+                            30.8,
+                            26.82
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Sri Lanka",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            80.77,
+                            7.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sri Lanka->Maldives",
+                    "coords": [
+                        [
+                            80.77,
+                            7.87
+                        ],
+                        [
+                            73.54,
+                            1.98
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United States",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -95.71,
+                            37.09
+                        ]
+                    ]
+                },
+                {
+                    "name": "United States->Canada",
+                    "coords": [
+                        [
+                            -95.71,
+                            37.09
+                        ],
+                        [
+                            -106.35,
+                            56.13
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Japan",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            138.25,
+                            36.2
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Australia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            133.78,
+                            -25.27
+                        ]
+                    ]
+                },
+                {
+                    "name": "Australia->New Zealand",
+                    "coords": [
+                        [
+                            133.78,
+                            -25.27
+                        ],
+                        [
+                            174.89,
+                            -40.9
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Junior(2013-2015)",
+            "coordinateSystem": "geo",
+            "zlevel": 12,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->United Arab Emirates",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            53.85,
+                            23.42
+                        ]
+                    ]
+                },
+                {
+                    "name": "United Arab Emirates->Saudi Arabia",
+                    "coords": [
+                        [
+                            53.85,
+                            23.42
+                        ],
+                        [
+                            45.08,
+                            23.89
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Vietnam",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            108.28,
+                            14.06
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Philippines",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            121.77,
+                            12.88
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "My Trajectory in Senior(2016-2019)",
+            "coordinateSystem": "geo",
+            "zlevel": 13,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Changsha->Thailand",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            100.99,
+                            15.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->Malaysia",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            101.98,
+                            4.21
+                        ]
+                    ]
+                },
+                {
+                    "name": "Changsha->United Kingdom",
+                    "coords": [
+                        [
+                            112.59,
+                            28.12
+                        ],
+                        [
+                            -3.44,
+                            55.38
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.3,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "My Hometown",
+                "My Hometown",
+                "Where I Have Been",
+                "My Trajectory in Childhood(2005-2012)",
+                "My Trajectory in Junior(2013-2015)",
+                "My Trajectory in Senior(2016-2019)",
+                "My Trajectory in Childhood(2005-2012)",
+                "My Trajectory in Junior(2013-2015)",
+                "My Trajectory in Senior(2016-2019)",
+                "My Trajectory in Childhood(2005-2012)",
+                "My Trajectory in Junior(2013-2015)",
+                "My Trajectory in Senior(2016-2019)"
+            ],
+            "selected": {
+                "My Hometown": true,
+                "Where I Have Been": true,
+                "My Trajectory in Childhood(2005-2012)": true,
+                "My Trajectory in Junior(2013-2015)": true,
+                "My Trajectory in Senior(2016-2019)": true
+            },
+            "show": true,
+            "left": "3%",
+            "top": "72%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "icon": "circle"
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "The Countries I Have Traveled to",
+            "left": "35%",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": false,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_4a73c8cef26a4b2499ac549e697da625.setOption(option_4a73c8cef26a4b2499ac549e697da625);
+    </script>
+</body>
+</html>
