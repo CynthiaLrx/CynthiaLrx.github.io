@@ -47,5 +47,6 @@
 - 昼夜比例图的颜色与白天-黑夜颜色一致
 - 使用了Bar, Grid, Line, Liquid, Page, Pie, Gauge, Radar, Tab(均来自pyecharts）库并学会了怎样精确到所想要的几位小数的方式。
 [作业3链接1](http://CynthiaLrx.github.io/北京20220327天气指数.html)
+  
 [作业3链接2](http://CynthiaLrx.github.io/北京20220327天气指数-tab.html)
 
